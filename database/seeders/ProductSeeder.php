@@ -28,7 +28,8 @@ class ProductSeeder extends Seeder
             'description'=>'A smartphone with many features',
             'category'=>"mobile",
             'gallery'=>"https://cdn1.smartprix.com/rx-iP3d27w7q-w1200-h1200/P3d27w7q.jpg"
-        ],[
+        ],
+        [
             'name'=>'Panasonic TV',
             'price'=>'500',
             'description'=>'A tv with many features',
