@@ -40,10 +40,7 @@
     }
     .trending-item{
         float: left;
-        padding-left: 50px;
-        margin:auto;
-        width: 15%;
-        display: block;
+        padding-right: 50px;
         
     }
     .trending-wrapper{
@@ -56,6 +53,11 @@
     }
     p.caption{
         text-align: left;
+    }
+    .cart-list-divider{
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
     }
 </style>
 </html>
