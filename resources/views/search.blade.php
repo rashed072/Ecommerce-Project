@@ -7,7 +7,7 @@
      <div class="col-sm-4">
         <div class="trending-wrapper">
             <h4>Result for Products</h4>
-            @foreach($products as $item)
+            @foreach($data as $item)
             <div class="searched-item">
               <a href="detail/{{$item['id']}}">
               <img class="trending-image" src="{{$item['gallery']}}">
