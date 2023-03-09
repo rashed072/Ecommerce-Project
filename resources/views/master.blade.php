@@ -33,14 +33,17 @@
         height: 600px;
     }
     .slider-text{
-        background-color: #35443585 !important
+        background-color: #35443585 !important;
     }
     .trending-image{
         height: 100px;
     }
     .trending-item{
         float: left;
-        width: 16%;
+        padding-left: 50px;
+        margin:auto;
+        width: 15%;
+        display: block;
         
     }
     .trending-wrapper{
@@ -50,6 +53,9 @@
     .detail-img{
         height: 200px;
         margin-bottom: 10px;
+    }
+    p.caption{
+        text-align: left;
     }
 </style>
 </html>
